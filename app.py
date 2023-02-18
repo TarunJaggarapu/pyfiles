@@ -31,3 +31,4 @@ print(dict)
 
 string = "tarunteja"
 print(string.upper())
+print(string.lower())
