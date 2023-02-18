@@ -21,3 +21,10 @@ print(l1)
 #or
 s = list(set(l))
 print(s)
+#converting lists into dictionary
+d1 = ["tarun","teja","jagga"]
+d2 = [1,2,3]
+dict = {}
+for i in range(len(d1)):
+    dict[d1[i]] =d2[i]
+print(dict) 
