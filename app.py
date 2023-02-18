@@ -8,3 +8,6 @@ print(dict.items())
 print(dict["hyuga"]["hinata"])
 print(dict.keys())
 print(dict.values())
+dict1 = {"iphone": "apple","samsung": "andriod"}
+dict.update(dict1)
+print(dict)
