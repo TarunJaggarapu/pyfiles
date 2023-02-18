@@ -11,3 +11,10 @@ print(dict.values())
 dict1 = {"iphone": "apple","samsung": "andriod"}
 dict.update(dict1)
 print(dict)
+
+l = [3,4,13,6,2,5,2,3,1]
+l1 = []
+for i in l:
+    if i not in l1:
+        l1.append(i)
+print(l1)
