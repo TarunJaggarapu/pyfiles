@@ -32,3 +32,9 @@ print(dict)
 string = "tarunteja"
 print(string.upper())
 print(string.lower())
+
+ls = [3,4,13,6,2,5,2,3,1]
+sum = 0
+for i in ls:
+    sum = sum + i
+print(sum)
