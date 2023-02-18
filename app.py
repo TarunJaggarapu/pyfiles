@@ -28,3 +28,6 @@ dict = {}
 for i in range(len(d1)):
     dict[d1[i]] =d2[i]
 print(dict) 
+
+string = "tarunteja"
+print(string.upper())
